@@ -335,8 +335,7 @@ body .profile .games {
   }
 }
 body .profile .games .game {
-  width: -moz-fit-content;
-  width: fit-content;
+  width: calc(33.3% - 2rem);
 }
 @media screen and (max-width: 800px) {
   body .profile .games .game {
